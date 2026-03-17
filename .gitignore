@@ -1,0 +1,14 @@
+# Large files on HuggingFace Hub
+notebooks/models/
+*.pt
+*.bin
+
+# Data files — too large for GitHub
+notebooks/train_clean.csv
+notebooks/test_clean.csv
+
+# Python
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
